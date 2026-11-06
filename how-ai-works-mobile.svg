@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+  <title id="t">How AI works</title>
+  <desc id="d">Four steps: sees examples, finds patterns, makes a guess, a human checks.</desc>
+  <style>
+    .b{fill:#ffffff;stroke:#111;stroke-width:3}
+    .h{fill:#ffd23f;stroke:#111;stroke-width:3}
+    .n{font:700 34px "Space Grotesk",Arial,sans-serif;fill:#111}
+    .l{font:600 20px Inter,Arial,sans-serif;fill:#111}
+    .a{stroke:#111;stroke-width:3;fill:none;marker-end:url(#m)}
+  </style>
+  <defs><marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#111"/></marker></defs>
+  <rect class="b" x="10" y="10" width="160" height="160" rx="24"/>
+  <text class="n" x="90" y="72" text-anchor="middle">1</text><text class="l" x="90" y="110" text-anchor="middle">Sees</text><text class="l" x="90" y="135" text-anchor="middle">examples</text>
+  <rect class="b" x="230" y="10" width="160" height="160" rx="24"/>
+  <text class="n" x="310" y="72" text-anchor="middle">2</text><text class="l" x="310" y="110" text-anchor="middle">Finds</text><text class="l" x="310" y="135" text-anchor="middle">patterns</text>
+  <rect class="b" x="230" y="230" width="160" height="160" rx="24"/>
+  <text class="n" x="310" y="292" text-anchor="middle">3</text><text class="l" x="310" y="330" text-anchor="middle">Makes</text><text class="l" x="310" y="355" text-anchor="middle">a guess</text>
+  <rect class="h" x="10" y="230" width="160" height="160" rx="24"/>
+  <text class="n" x="90" y="292" text-anchor="middle">4</text><text class="l" x="90" y="330" text-anchor="middle">A human</text><text class="l" x="90" y="355" text-anchor="middle">checks</text>
+  <path class="a" d="M175 90H224"/><path class="a" d="M310 175V224"/><path class="a" d="M225 310H176"/>
+</svg>

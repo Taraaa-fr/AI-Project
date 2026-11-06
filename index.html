@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI, Simply: Who's Checking the Machine?</title>
+  <meta name="description" content="Four questions about artificial intelligence, with short answers and more detail for curious readers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="top">
+    <a class="logo" href="#hero">AI, simply.</a>
+    <nav aria-label="Main">
+      <ul class="dots">
+        <li><a href="#q1">1<span class="sr"> What is AI?</span></a></li>
+        <li><a href="#q2">2<span class="sr"> Good and bad</span></a></li>
+        <li><a href="#q3">3<span class="sr"> The future</span></a></li>
+        <li><a href="#q4">4<span class="sr"> How I made this</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="hero" class="panel hero">
+      <h1>Who's checking<br>the machine?</h1>
+      <p class="sub">4 questions about AI. Short answers, with more if you want it.</p>
+      <p class="legend">Look for the labels: <span class="tag fact">Fact</span> <span class="tag view">My view</span> <span class="tag pred">Prediction</span></p>
+      <a class="down" href="#q1" aria-label="Go to question 1">↓</a>
+    </section>
+
+    <!-- Q1 -->
+    <section id="q1" class="panel p-lilac" aria-labelledby="q1-h">
+      <p class="qn">01</p>
+      <h2 id="q1-h">What is AI?</h2>
+      <p class="answer">A program that <a href="https://oecd.ai/en/inside-artificial-intelligence">learns from examples</a> instead of following only rules a person wrote.</p>
+
+      <picture>
+        <source media="(max-width: 600px)" srcset="assets/how-ai-works-mobile.svg">
+        <img class="diagram" src="assets/how-ai-works.svg" width="800" height="200" alt="Four steps: AI sees examples, finds patterns, makes a guess, then a human checks it.">
+      </picture>
+
+      <p class="big-quote">It guesses what <em>sounds</em> right,<br>not what <em>is</em> right.</p>
+
+      <details class="more">
+        <summary>Read more</summary>
+        <div class="more-body">
+          <p><span class="tag fact">Fact</span> A spam filter is a simple example. It studies lots of emails marked "spam" or "not spam" and learns which patterns usually mean spam.</p>
+          <p><span class="tag fact">Fact</span> Chatbots like ChatGPT were trained on <a href="https://www.washingtonpost.com/technology/interactive/2023/ai-chatbot-learning/">huge amounts of text from websites</a>. They don't look answers up; they predict the likeliest next word. Image generators <a href="https://www.washingtonpost.com/technology/interactive/2022/ai-image-generator/">learn from pictures with captions</a>, then shape random noise into a picture that matches your words.</p>
+          <p><span class="tag view">My view</span> So AI is very good at <em>sounding</em> right. Checking whether it <em>is</em> right is still our job.</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- Q2 -->
+    <section id="q2" class="panel p-cream" aria-labelledby="q2-h">
+      <p class="qn">02</p>
+      <h2 id="q2-h">Good or bad?</h2>
+      <p class="answer">Both. It saves time and opens doors, but it also makes mistakes and can be misused.</p>
+
+      <div class="versus">
+        <ul class="chips good" aria-label="Benefits">
+          <li>Captions for everyone</li>
+          <li>Study help</li>
+          <li>Faster creative work</li>
+          <li>New science</li>
+        </ul>
+        <span class="vs" aria-hidden="true">vs</span>
+        <ul class="chips bad" aria-label="Risks">
+          <li>Makes things up</li>
+          <li>Can be unfair</li>
+          <li>Privacy</li>
+          <li>Deepfakes</li>
+          <li>Over-reliance</li>
+        </ul>
+      </div>
+
+      <details class="more">
+        <summary>Read more: the good and the bad</summary>
+        <div class="more-body two">
+          <div>
+            <h3 class="col-h good-h">The good</h3>
+            <p><b>Accessibility.</b> Automatic captions and read-aloud tools help deaf and blind people use videos and websites.</p>
+            <p><b>For me.</b> As a Communication &amp; Digital Media student, I use AI for interview transcripts, subtitles, headline ideas and explaining hard readings. It saves hours, but I check everything.</p>
+            <p><b>Science.</b> <span class="tag fact">Fact</span> AlphaFold predicts the shapes of proteins, helping scientists design medicines. Its creators shared the <a href="https://www.nobelprize.org/prizes/chemistry/2024/press-release/">2024 Nobel Prize in Chemistry</a>.</p>
+          </div>
+          <div>
+            <h3 class="col-h bad-h">The bad</h3>
+            <p><b>Mistakes.</b> Chatbots sometimes invent facts or even fake sources.</p>
+            <p><b>Bias.</b> Unfair training examples can lead to unfair answers.</p>
+            <p><b>Privacy.</b> What you type into an AI tool may be stored or used for training.</p>
+            <p><b>Deepfakes.</b> <span class="tag fact">Fact</span> AI can fake real people's faces and voices. Google told Australia's regulator it received complaints that its AI was used to make <a href="https://www.reuters.com/technology/cybersecurity/google-reports-scale-complaints-about-ai-deepfake-terrorism-content-australian-2025-03-05/">deepfake terrorism content</a>.</p>
+            <p><b>Over-reliance.</b> If we hand too much to automated systems, one error spreads fast.</p>
+          </div>
+        </div>
+      </details>
+
+      <h3 class="mini">Real stories <span>· tap to see the lesson</span></h3>
+      <div class="flips">
+        <button class="flip" aria-pressed="false">
+          <span class="front"><b>Fake video call</b>Scammers used deepfakes of a boss to steal money.</span>
+          <span class="back">Lesson: double-check another way.</span>
+        </button>
+        <button class="flip" aria-pressed="false">
+          <span class="front"><b>AI broke a system</b>An Amazon AI tool deleted part of a system.</span>
+          <span class="back">Lesson: humans review before AI acts.</span>
+        </button>
+        <button class="flip" aria-pressed="false">
+          <span class="front"><b>AI escaped a test</b>AI agents broke out of a test and hacked a company.</span>
+          <span class="back">Lesson: safety first, then freedom.</span>
+        </button>
+      </div>
+
+      <details class="more">
+        <summary>Read more: what happened</summary>
+        <div class="more-body">
+          <p><b>Fake video call (2024).</b> <span class="tag fact">Fact</span> An employee at engineering firm Arup in Hong Kong joined a video call with what looked like the finance director and colleagues. <a href="https://www.scmp.com/news/hong-kong/law-and-crime/article/3250851/everyone-looked-real-multinational-firms-hong-kong-office-loses-hk200-million-after-scammers-stage">Every person on the call was a deepfake</a>. He transferred company money.</p>
+          <p><b>AI broke a system (2025).</b> <span class="tag fact">Fact</span> The Financial Times reported that Amazon engineers let an AI coding tool fix a problem; it chose to "delete and recreate" part of a system and caused a long interruption. Amazon called it <a href="https://www.reuters.com/business/retail-consumer/amazons-cloud-unit-hit-by-least-two-outages-involving-ai-tools-ft-says-2026-02-20/">"user error, not AI error"</a> and made peer review mandatory.</p>
+          <p><b>AI escaped a test (2026).</b> <span class="tag fact">Fact</span> During a security test, AI agents built by OpenAI escaped their test environment, used exposed passwords and got into Hugging Face's systems while chasing a hard task. Hugging Face stopped them, and <a href="https://www.reuters.com/business/its-ai-agent-spent-days-hacking-company-sources-say-openai-did-not-notice-week-2026-07-24/">Reuters reported</a> that OpenAI did not notice for about a week. OpenAI says it has <a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/">added more monitoring</a>.</p>
+          <p><span class="tag view">My view</span> None of these was "evil AI". Each time, a human check was missing.</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- Q3 -->
+    <section id="q3" class="panel p-sky" aria-labelledby="q3-h">
+      <p class="qn">03</p>
+      <h2 id="q3-h">What's next?</h2>
+      <p class="answer">Big opportunities, and new kinds of problems.</p>
+
+      <div class="tiles">
+        <div class="tile t-green"><b>Opportunity</b>Better tools for health, science and school.</div>
+        <div class="tile t-red"><b>Security</b>Criminals use AI too.</div>
+        <div class="tile t-blue"><b>Outages</b>One provider fails, many sites go down.</div>
+        <div class="tile t-yellow"><b>Power</b>AI needs lots of electricity: blackout risk, higher bills.</div>
+      </div>
+
+      <details class="more">
+        <summary>Read more</summary>
+        <div class="more-body">
+          <p><b>Opportunity.</b> <span class="tag pred">Prediction</span> AI could help doctors spot illness earlier, help scientists find new medicines and give every student a personal tutor.</p>
+          <p><b>Security.</b> <span class="tag fact">Fact</span> As the Hugging Face case showed, <a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/">AI agents can find weaknesses on their own</a>, and criminals can use the same tools.</p>
+          <p><b>Outages.</b> <span class="tag fact">Fact</span> Much of the internet runs on a few companies like Cloudflare and Amazon. When one has a problem, <a href="https://www.reuters.com/technology/cloudflare-restores-services-after-minor-dashboard-outage-2025-12-05/">many sites stop working at the same time</a>.</p>
+          <p><b>Power.</b> <span class="tag fact">Fact</span> AI runs in data centres full of computers that need power day and night. PJM, the largest US grid operator, proposed that big data centres <a href="https://www.reuters.com/legal/litigation/pjm-unveils-plan-tackle-ai-driven-power-demand-surge-2026-01-16/">bring their own power or use less during shortages</a> to avoid blackouts. People also worry it will <a href="https://www.nytimes.com/2026/02/19/climate/data-centers-power-bills.html">raise household bills</a>.</p>
+          <p><b>The big debate.</b> Some researchers warn self-improving AI could endanger humanity; others think this unlikely. <a href="https://www.gov.uk/government/publications/international-ai-safety-report-2025">Experts still disagree</a>.</p>
+          <p><b>Human supervision.</b> The <a href="https://www.nist.gov/itl/ai-risk-management-framework">NIST framework</a> asks organisations to test AI, monitor it and keep people responsible.</p>
+        </div>
+      </details>
+
+      <div class="verdict">
+        <p class="verdict-label">My prediction</p>
+        <p>AI keeps getting more useful, <br>as long as humans stay in charge.</p>
+      </div>
+    </section>
+
+    <!-- Q4 -->
+    <section id="q4" class="panel p-white" aria-labelledby="q4-h">
+      <p class="qn">04</p>
+      <h2 id="q4-h">How I made this</h2>
+
+      <div class="process">
+        <div><b>Plan</b><p>I read the suggested articles and chose one idea: humans must check AI. Each section gives a short answer, then "Read more" for details.</p></div>
+        <div><b>Design</b><p>Each question is a full-screen coloured panel, like a slide. The labels show which parts are facts, my views or predictions.</p></div>
+        <div><b>Code</b><p>Semantic HTML, one CSS file and CSS Grid so it works on phones. "Read more" uses the HTML <code>details</code> tag, so it works without JavaScript. A little JavaScript flips the story cards, which are real buttons for keyboard users. The diagram is an SVG with alt text.</p></div>
+        <div><b>Test</b><p>I tested on my phone and with only a keyboard. Then I enlarged text and buttons and added a vertical diagram for phones.</p></div>
+      </div>
+
+      <p class="ack"><b>AI use:</b> I acknowledge the use of <a href="https://claude.ai">Claude</a> (Anthropic) to brainstorm the structure, find sources, draft code and suggest revisions. I checked the facts, edited the content and tested the code. The final work is my responsibility.</p>
+    </section>
+  </main>
+
+  <footer class="foot">By Tara · Communication &amp; Digital Media · <a href="#hero">Back to top ↑</a></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
